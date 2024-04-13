@@ -9,7 +9,8 @@
 html,
 body {
   height: 100%;
-  background-color: #05ffc9;
+  background-color: #ffffff;
+  background-size: cover;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 }
 
 a {
-  color: #66cc99;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -49,7 +50,7 @@ a {
 }
 
 .profile {
-  background-color: #05ffc977;
+  background-color: #ffffff77;
   width: 40%;
   float: left;
   color: #161616;
@@ -58,10 +59,13 @@ a {
   .profile {
     width: 100%;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 .profile .name-wrapper {
   float: left;
-  width: 60%;
+  text-align: center;
 }
 .profile h1 {
   font-size: 2.5em;
@@ -76,11 +80,17 @@ a {
   .profile h1 {
     padding-top: 20px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 450px) {
   .profile h1 {
     font-size: 1.8em;
     padding-top: 20px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .profile li {
@@ -88,12 +98,14 @@ a {
 }
 .profile .picture-resume-wrapper {
   width: 50%;
-  display: block;
-  float: left;
+  margin-left: 70px;
 }
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
     width: 100%;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .profile .picture-resume {
@@ -122,11 +134,17 @@ a {
   .profile .picture-resume img {
     width: 80px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 1200px) {
   .profile .picture-resume img {
     width: 120px;
     height: 120px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 @media (max-width: 1500px) {
@@ -134,17 +152,26 @@ a {
     width: 150px;
     height: 150px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 1200px) {
   .profile .picture-resume {
     width: 200px;
     height: 200px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 450px) {
   .profile .picture-resume {
     width: 180px;
     height: 180px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .profile .contact-info {
@@ -155,10 +182,16 @@ a {
   .profile .contact-info {
     margin-top: 70px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 450px) {
   .profile .contact-info {
     margin-top: 50px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .profile .list-titles {
@@ -191,11 +224,17 @@ a {
     margin-top: 70px;
     margin-bottom: 70px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 850px) {
   .profile .contact-presentation {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .profile svg {
@@ -206,11 +245,11 @@ a {
 }
 .profile .st0,
 .profile .st1 {
-  fill: #66cc99;
+  fill: #ffffff;
 }
 
 .experience {
-  background: #3d3e42;
+  background: #000080;
   width: 60%;
   float: left;
   position: relative;
@@ -223,9 +262,12 @@ a {
   .experience {
     width: 100%;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 .experience h3.experience-title {
-  color: #05ffc9;
+  color: #ffffff;
   text-align: left;
   text-transform: uppercase;
   font-size: 1.6em;
@@ -244,6 +286,9 @@ a {
     width: 100%;
     margin-bottom: 20px;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 .experience .job-wrapper {
   width: 70%;
@@ -256,6 +301,9 @@ a {
   .experience .job-wrapper {
     width: 100%;
     margin-bottom: 40px;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 .experience .experience-title {
@@ -270,10 +318,16 @@ a {
   .section-padding {
     padding: 80px 15% 40px 10%;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 450px) {
   .section-padding {
     padding: 40px 10% 20px 5%;
+  }
+  html{
+    overflow-x: hidden;
   }
 }
 
@@ -289,12 +343,15 @@ a {
   .section-wrapper {
     width: 100%;
   }
+  html{
+    overflow-x: hidden;
+  }
 }
 .section-wrapper:nth-child(3) {
   padding-right: 8%;
 }
 .section-wrapper h3.section-title {
-  color: #66cc99;
+  color: #ffffff;
   text-align: left;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -316,7 +373,7 @@ a {
 .section-wrapper .skill-percentage::before {
   content: "";
   height: 6px;
-  background: #66cc99;
+  background: #ffffff;
   position: absolute;
   margin-top: 3px;
   bottom: 0;
