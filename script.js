@@ -13,7 +13,7 @@ let contact = document.getElementById("contact");
 function removeClass() {
     // link
     getAbout.classList.remove('selected');
-    getResume.classList.remove('selected');
+    getResume.classList.remove('selected'); 
     getProject.classList.remove('selected');
     getContact.classList.remove('selected');
     // sezioni
