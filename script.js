@@ -8,7 +8,7 @@ let getContact = document.getElementById("getContact");
 let about = document.getElementById("about");
 let resume = document.getElementById("resume");
 let project = document.getElementById("project");
-let contact = document.getElementById("contact");
+let contact = document.getElementById("contact"); 
 
 function removeClass() {
     // link
