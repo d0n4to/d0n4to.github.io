@@ -176,21 +176,20 @@ main .profile{
 }
 .profile-image img{
   position: relative;
-  top: -98px;
-  border-radius: 50%;
-  border: 3px solid white;
-  width: 134px;
+  bottom: 198px;
+  height: 250px;
+  width: auto;
 }
 .profile-image::before{
   content: '';
   position: absolute;
-  top: -99px;
-  left: calc(50% - 88px);
-  width: 134px;
-  height: 134px;
-  background: linear-gradient(105deg, rgba(25, 0, 255, 0.4) 0%, rgba(78, 78, 78, 0.01) 100%);
-  border-radius: 100%;
+  bottom: 28px;
+  left: calc(50% - 98px);
+  width: 196px;
+  height: 258px;
+  background: linear-gradient(105deg, rgba(25, 0, 255, 0.4) 0%, rgba(78, 78, 78, 0.644) 100%);
 }
+
 
 
 .profile-name{
