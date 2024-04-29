@@ -9,48 +9,48 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="./favicon.ico">
+        <link rel="shortcut icon" href="./favicon.ico" class="fas fa-book">
     </head>
 
 <body> 
     <div class="page">
         <header>
             <nav>
-                <a href="#about" class="selected" id='getAbout'>
+                <a href="#about" class="selected">
                     <span class="fas fa-user"></span>
                     <span class="link">About</span>
                 </a>
-                <a href="#resume" id='getResume'>
+                <a href="#resume">
                     <span class="fas fa-id-card"></span>
                     <span class="link">Resume</span>
                 </a>
-                <a href="#project" id="getProject">
+                <a href="#project">
                     <span class="fas fa-tasks"></span>
                     <span class="link">Project</span>
                 </a>                
-                <a href="#contact" id='getContact'>
+                <a href="#contact">
                     <span class="fas fa-at"></span>
                     <span class="link">Contact</span>
                 </a>
             </nav>
         </header>
         <main>
-            <section id="presentation" class="profile">
+            <section class="profile">
                 <div class="profile-background"></div>
                 <div>
                     <div class="profile-image"> 
                         <img src="img/Immagine WhatsApp 2024-04-11 ore 17.32.41_9ac9cba7.jpg" draggable="false" alt="Ryan Adlard">
                     </div>
-                    <h1 class="profile-name" id="nombre">Mecca Donato</h1>
+                    <h1 class="profile-name">Mecca Donato</h1>
                     <h2 class="profile-profession">Developer</h2>
-                    <div class="profile-social" id="profile-social">
+                    <div class="profile-social" >
                         <a href="https://github.com/d0n4to" class="fab fa-github"></a>
                         <a href="https://www.instagram.com/_.donatomeccaa._/" class="fab fa-instagram"></a>
                         <a href="https://open.spotify.com/playlist/4QtSd2V5otDRvw2QjCKhcm?si=f84ba75cd6134c97" class="fab fa-spotify"></a>
                     </div>
                 </div>
             </section>
-            <section id="about" class="about view">
+            <section class="about view">
                 <article class="about-aboutMe">
                     <h3 class="title">Chi sono?</h3>
                     <div class="line-left">
@@ -77,7 +77,7 @@
                 <article class="about-services">
                     <h3 class="title">Competenze</h3>
                     <div class="line-left">
-                        <article class="line-down">
+                        <article  >
                             <div class="fas fa-code"></div>
                             <h4>WEB DEVELOPMENT</h4>
                             <p>Possiedo competenze nella progettazione e sviluppo di siti web utilizzando HTML, JavaScript e CSS. Integrando queste conoscenze, 
@@ -85,7 +85,7 @@
                                 utilizzo Adobe Photoshop per gestire e ottimizzare le immagini complesse utilizzate nei progetti.
                             </p>
                         </article>
-                        <article class="line-down">
+                        <article  >
                             <div class="fas fa-terminal"></div>
                             <h4>SOFTWARE DEVELOPMENT</h4>
                             <p>Possiedo competenze approfondite nei linguaggi di programmazione Java, C e C++, 
@@ -109,34 +109,13 @@
                     </div>
                 </article>
             </section>
-            <section id="resume" class="resume">
+            <section class="resume">
                 <h3 class="title">Resume</h3>
                 <article class="resume-lines">
                     <section class="resume-line line-left">
-                        <h4 class="line-down"> <i class="fas fa-briefcase"></i>Competenze</h4>
-                        <article class="line-down">
-                            <div class="date">Null - Null</div>
-                            <h5 class="name">Nome del lavoro</h5>
-                            <h6 class="company">Dove è stato</h6>
-                            <p>Descrizione</p>
-                        </article>
-                        <article class="line-down">
-                            <div class="date">Null - Null</div>
-                            <h5 class="name">Nome del lavoro</h5>
-                            <h6 class="company">Dove è stato</h6>
-                            <p>Descrizione</p>
-                        </article>
-                        <article class="line-down">
-                            <div class="date">Null - Null</div>
-                            <h5 class="name">Nome del lavoro</h5>
-                            <h6 class="company">Dove è stato</h6>
-                            <p>Descrizione</p>
-                        </article>
-                    </section>
-                    <section class="resume-line line-left">
-                        <h4 class="line-down"> <i class="fas fa-university"></i>Scuola</h4>
-                        <article class="line-down">
-                            <article class="line-down">
+                        <h4  > <i class="fas fa-university"></i>Scuola</h4>
+                        <article  >
+                            <article  >
                                 <div class="date">2020 - 2022</div>
                                 <h5 class="name">Liceo Giustino Fortunato</h5>
                                 <h6 class="company">Rionero</h6>
@@ -152,82 +131,102 @@
                 </article>
                 <article class="resume-skills">
                     <h3 class="title">My Skills</h3>
-                    <div>
+                    <div style="width: 20%;">
                         <section class="line-left">
-                            <h4 class="line-down"> <i class="fas fa-tv"></i> DESIGN</h4>
-                            <div class="line-down">
+                            <h4  > <i class="fas fa-tv"></i> DESIGN</h4>
+                            <div  >
                                 <div>Web Design</div>
-                                <div>
-                                    <div style="width: 70%"></div>
+                                <div class="skill">
+                                    <div style="width: 50%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="line-down">
+                            <div  >
                                 <div>Photoshop</div>
-                                <div>
-                                    <div style="width: 66%"></div>
+                                <div class="skill">
+                                    <div style="width: 70%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
                             <div>
                                 <div>Graphic Design</div>
-                                <div>
-                                    <div style="width: 86%"></div>
+                                <div class="skill"">
+                                    <div style="width: 86%;">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
-                        </section>
+                        </section>                        
                         <section class="line-left">
-                            <h4 class="line-down"><i class="fas fa-code"></i> CODING</h4>
-                            <div class="line-down">
+                            <h4><i class="fas fa-code"></i> CODING</h4>
+                            <div>
                                 <div>Java</div>
-                                <div>
-                                    <div style="width: 100%"></div>
+                                <div class="skill">
+                                    <div style="width: 80%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="line-down">
-                                <div>C/C++</div>
-                                <div>
-                                    <div style="width: 65%"></div>
+                            <div>
+                                <div>Flutter/Dart</div>
+                                <div class="skill">
+                                    <div style="width: 50%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
                             <div>
                                 <div>HTML/CSS/JavaScript</div>
-                                <div>
-                                    <div style="width: 70%"></div>
+                                <div class="skill">
+                                    <div style="width: 70%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>C/C++</div>
+                                <div class="skill">
+                                    <div style="width: 30%">
+                                        <hr style="border: 3px solid blue;">
+                                    </div>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </article>
             </section>
-            <section id="project" class="resume">
+            <section class="resume">
                 <h3 class="title">Progetti</h3>
                 <article class="resume-lines">
                     <section class="resume-line line-left">
-                        <h4 class="line-down"> <i class="fas fa-coffee"></i>Java</h4>
-                        <article class="line-down">
+                        <h4><i class="fas fa-coffee"></i>Java</h4>
+                        <article>
                             <h5 class="name">Terminal</h5>
-                            <h3 class="resumeProject">Presento il mio terminale Java, modellato sul design di Windows. L'obiettivo è combinare la 
+                            <p class="resumeProject">Presento il mio terminale Java, modellato sul design di Windows. L'obiettivo è combinare la 
                                                 potenza di Java con l'intuitività di Windows, offrendo un'esperienza utente fluida e funzionale. 
                                                 L'architettura è orientata agli oggetti per una manutenzione agevole, con funzionalità avanzate 
                                                 come supporto per batch e gestione file.
-                            </h3>
-                            <button class="btn myBtn">Qui per il progetto</button>
+                            </p>
+                            <a href="https://github.com/d0n4to/DSCLI"><button class="btn myBtn">Qui per il progetto</button></a>
                         </article>
                         </section>
                     <section class="resume-line line-left">
-                        <h4 class="line-down"> <i class="fas fa-code"></i>HTML</h4>
-                        <article class="line-down">
+                        <h4  > <i class="fas fa-code"></i>HTML</h4>
+                        <article  >
                             <h5 class="name">Torri di hanoi</h5>
-                            <h3 class="resumeProject">Mi permetto di presentare il mio sito web, un progetto dedicato al gioco delle Torri di Hanoi. 
+                            <p class="resumeProject">Mi permetto di presentare il mio sito web, un progetto dedicato al gioco delle Torri di Hanoi. 
                                 Realizzato mediante l'utilizzo di JavaScript, CSS e HTML, il sito rappresenta in modo interattivo questo enigma 
                                 matematico, offrendo una implementazioni che consentono agli utenti di giocare direttamente con 
                                 il problema delle Torri di Hanoi.
-                            </h3>
-                            <button class="btn myBtn">Qui per il progetto</button>
+                            </p>
+                            <a href="https://github.com/d0n4to/TPSIT_4N_DM"><button class="btn myBtn">Qui per il progetto</button></a>
                         </article>
                     </section>
                 </article>
             </section>            
-            <section id="contact" class="contact">
+            <section class="resume">
               <h3 class="title">Come trovarmi</h3>
               <div class="contact-information line-left">
                 <div>
@@ -247,7 +246,7 @@
 
         </main>
     </div>
-
 </body>
-<script src="script.js"></script>
+
+
 </html>
